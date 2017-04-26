@@ -1,6 +1,10 @@
+if !exists("g:potion_localleader")
+    let g:potion_localleader = "<localleader>"
+endif
+
 if !exists("g:potion_command")
     let g:potion_command = "potion"
 endif
 
-noremap <buffer> <localleader>r :call potion#running#PotionCompileAndRunFile()<cr>
-nnoremap <buffer> <localleader>b :call potion#running#PotionShowByteCode()<cr>
+execute "nnoremap <buffer>" g:potion_localleader."r" ':call potion#running#PotionCompileAndRunFile()<cr>'
+execute "nnoremap <buffer>" g:potion_localleader."b" ':call potion#running#PotionShowByteCode()<cr>'
