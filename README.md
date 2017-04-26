@@ -30,6 +30,7 @@ The plugin features mappings for:
 ### External commands
 
 | Default key | Description | Help-tag |
+|-------------|-------------|----------|
 | `<localleader>r` | Compile and run the current Potion file.| `Potion-localleader_r` |
 | `<localleader>b` | View the bytecode it generates as it compiles.| `Potion-localleader_b` |
 
@@ -44,6 +45,7 @@ Now the space bar will be the local leader.
 ### Section movements
 
 | Default key | Description | Help-tag |
+|-------------|-------------|----------|
 | `]]` | Move to the next section | PotionNextSection |
 | `[[` | Move to the previous section | `PotionPreviousSection` |
 | `][` | Move to the next function | `PotionNextFunction` |
