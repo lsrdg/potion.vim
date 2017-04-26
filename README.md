@@ -56,6 +56,10 @@ Open an issue or send a pull request on Github. Keep mind that there might be
 a better pluggin out there (in case you are serious about Potion support).
 Meanwhile, I do intend to keep working on this plugin. o/
 
+### TODO list
+
+- [ ] properly document section movements.
+
 ## Credits
 
 All credits to [Steve Losh](http://learnvimscriptthehardway.stevelosh.com/), and
