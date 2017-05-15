@@ -55,6 +55,12 @@ this to your vimrc:
 
 Now the space bar will be the local leader.
 
+SECTION MOVES
+
+]] ..... Move to the next section | *PotionNextSection* |
+[[ ..... Move to the previous section | *PotionPreviousSection* |
+][ ..... Move to the next function | *PotionNextFunction* |
+[] ..... Move to the previous function | *PotionPreviousFunction* |
 
 ====================================================================
 Section 3: License                                   *PotionLicense*
