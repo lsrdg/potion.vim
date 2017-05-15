@@ -60,7 +60,7 @@ Meanwhile, I do intend to keep working on this plugin. o/
 
 ### TODO list
 
-- [ ] properly document section movements.
+- [ ] Find bugs
 
 ## Credits
 
